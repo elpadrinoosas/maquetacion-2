@@ -1,0 +1,277 @@
+/* GENERAL */
+.text-center{
+    text-align: center;
+}
+.ancho-web{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.flex-column{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.sin-estilos{
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    margin: 0px;
+}
+.sin-margen{
+    margin: 0px;
+}
+.bold {
+    font-weight: bold;
+}
+.margin-botton{
+    margin-bottom: 105px;
+}
+/* HEADER */
+header {
+    margin: 0px;
+    padding: 0px;
+}
+
+.boton-amarillo {
+    color: black;
+    background-color: #FFE521;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+/* BANNER PRINCIPAL */
+.banner-principal {
+    background-image: url(img/fondos/banner-1.jpg);
+    height: 446px;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subtitulo-banner {
+    margin-top: 250px; 
+    font-size: 3em; 
+    text-align: center;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+span {
+    font-size: .43em;
+    font-weight: 100;
+}
+.tenue {
+    background-color: rgba(15, 15, 15, 0.3);
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+/* FUNDADORA */
+.fondo-rosa{
+    width: 200px;  
+    height: 164px; 
+    background-color: #ff009e;
+    margin: 5px;
+    /* padding: 50px; */
+}
+.datos-impacto{
+    font-size: 3em;
+    width: 100%;
+    line-height: 20px;
+    color: #ffffff;
+}
+.datos-impacto>span{
+    font-size: .35em;
+    color: inherit;
+}
+.fundadora{
+    color: #999999;
+}
+/* BANNER-2 */
+.banner-2{
+    background-image: url(img/fondos/banner-2.jpg);
+    height: 426px;
+    width: 100%;
+}
+.testimonios{
+    margin-top: 180px;
+    font-size: 2em; 
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+.color-amarillo{
+    color: #FFE521;
+}
+.derecha{
+    float: right;
+}
+/* BANNER 3 */
+.banner-3{
+    background-image: url(img/fondos/banner-3.JPG);
+    width: 100%;
+    height: 409px;
+    background-size: cover;
+    background-position-y: -200px;
+    margin-top: 90px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/* BANNER 4 */
+.banner-4{
+    background-image: url(img/fondos/banner-4.jpg);
+    background-position-y: -100px;
+    height: 414px;
+    width: 100%;
+    margin-top: 100px;
+    padding: 50px;  
+    box-sizing: border-box;
+}
+.text-derecha{
+    text-align: right;
+}
+.boton-verde{
+    color: black;
+    background-color: #56f89a;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+/* BANNER 5 */
+.banner-5{
+    background-image: url(img/fondos/banner-5.jpg);
+    background-position-y: -100px;
+    width: 100%;
+    height: 428px;
+    padding:  50px;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+/* SECCION DE ALIADOS */
+.aliados{
+    background-color: #eeeeee;
+    margin: 0px;
+    padding: 1px;
+}
+.img-aliados{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+}
+.flex-imgs{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.flex-imgs > div{
+    margin: 20px;
+    display: flex;
+}
+div>img{
+    margin: auto;
+}
+/* .contenedor-imgs{
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+} */
+/* RECONOCIMIENTOS */
+.img-reconocimiento{
+    width: 300px;
+    margin: 20px;
+}
+/* MEDIOS */
+.medios{
+    background-color: #eeeeee;
+}
+.img-medios{
+    margin: 20px;
+}
+.caja-medios{
+    width: 250px;
+    height: 250px;
+    margin: 0px 20px 0px;
+}
+/* BLOG  */
+.articulos{
+    width: 300px;
+    height: 440px;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: #eeeeee;
+}
+.img-articulo{
+    margin: 0px auto;
+}
+.color-negro{
+    color: #000000;
+}
+/* FOOTER */
+.footer{
+    background-color: #000000;
+    /* height: 300px; */
+    padding: 20px 100px;
+    box-sizing: border-box;
+}
+.logo-footer{
+    width: 169px;
+}
+.color-blanco{
+    color: #ffffff
+}
+.ultima-lista{
+    list-style: none;
+}
+.parrafo-footer{
+    width: 600px;
+}
+.testimonios-3{
+    margin-right: auto;
+    margin-bottom: 0px;
+    width: 600px;
+    color: #ffffff;
+    font-size: 2em
+}
+.testimonios-3a5{
+    margin-left: auto;
+    margin-bottom: 0px;
+    width: 600px;
+    color: #ffffff;
+    font-size: 2em;
+}
+.autores{
+    font-size: 1.3em;
+    margin-top: 10px;
+    color: #FFE521;
+}
+.color-rosa.autores{
+    color: #ff009e;
+}
+.color-verde{
+    color: #56f89a;
+}
+.boton-rosa{
+    color: black;
+    background-color: #ff009e;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.text-izquierda{
+    text-align: left;
+}
+.blog-link-margen{
+    margin: 50px;
+}
+.margen-62{
+    margin-top: 62px;
+}
+.margen-105{
+    margin-top: 105px;
+}
